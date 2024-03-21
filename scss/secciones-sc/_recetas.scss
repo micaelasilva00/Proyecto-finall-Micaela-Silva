@@ -39,3 +39,28 @@
     padding: 1rem;
   }
   
+
+  @media (max-width: 450px) {
+    .recetas-01{
+      max-width: none;
+      text-align: center;
+      p{
+        text-align: none;
+        margin-left: 60px;
+        padding-left: 50px;
+      }
+    }
+
+    .recetas-02{
+      text-align: center;
+
+    }
+  
+    .carousel-item img {
+      height: 200px;
+    }
+
+    .row{
+      flex-direction: column;
+    }
+  }

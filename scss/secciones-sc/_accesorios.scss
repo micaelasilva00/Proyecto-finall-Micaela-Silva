@@ -39,6 +39,35 @@
         
         .imagen-5 { grid-area: imagen-5; }
 
-} 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px){
+
+  .seccion-accesorios{
+    .accesorios-01{
+      margin: 20px 0 50px 0;
+      img{
+        max-height: 300px;
+        overflow: hidden;
+        width: 100%;
+      }
+    }
+
+
+
+  .accesorios-02{
+    display: flex;
+    flex-direction: column;
+}
+}
+}
     
     

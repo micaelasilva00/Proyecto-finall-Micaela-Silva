@@ -4,4 +4,11 @@
     background-color: $fondo-casiblanco;
     color: $blanco;
   }
+
+  %sombra{
+      box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+  }
   
+  %sombra-abajo{
+    box-shadow: 0px 5px 7px rgba(107, 119, 211, 0.544);
+}

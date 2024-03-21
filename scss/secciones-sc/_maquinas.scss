@@ -17,3 +17,24 @@
   .carousel-item {
     font-family: $fuente2;
   }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 450px){
+    .seccion-maquinas{
+      padding: 50px;
+    }
+
+    .footer{
+
+      position: fixed;
+      bottom: 0;
+      
+    }
+  }
