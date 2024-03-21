@@ -30,6 +30,7 @@
             padding-right: 50px;
             color: $fondo-casiblanco;
             @extend %sombra-abajo;
+            
         }
 
         h3{
@@ -41,6 +42,7 @@
           right: 100px; 
            padding-left: 60px;
             padding-right: 50px;
+            
         }
 
 
@@ -154,11 +156,10 @@
 
       padding-top: 50px;
       display: grid;
-      grid-template-columns: 1fr; /* Cambiamos a una sola columna */
-
+      grid-template-columns: 1fr; 
         article {
-            width: 100%; /* Ocuparán todo el ancho de la pantalla */
-            margin-bottom: 20px; /* Añadimos un espacio entre los bloques */
+            width: 100%; 
+            margin-bottom: 20px; 
         }
     }
   }

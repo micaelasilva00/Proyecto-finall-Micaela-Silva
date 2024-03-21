@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tokyo matcha latte una receta con Nespresso con sus pasos e ingredientes">
+    <meta name="keywords" content="Nespresso,tokyo,matcha,latte,receta,ingredientes">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/597801458252140544/Ir7w4bai_400x400.jpg"
+    >
     <title>Recetas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -151,10 +155,28 @@
             <h3>¿Ya probaste la receta?</h3>
             <h4>Compartinos tu opinión.</h4>
             <form action="#">
-                <input type="text" placeholder="Nombre"><br> <br>
+                <input type="text" id="nombre" placeholder="Nombre">
                 <label for="Observaciones"> Observaciones <br> <br>
                     <textarea placeholder="Esta receta me pareció..."></textarea>
                 </label>
+                <label for="gusto">¿Te gustó esta receta?</label>
+    <select id="gusto" class="gusto" name="gusto">
+      <option value="feliz">😊</option>
+      <option value="triste">😢</option>
+    </select>
+    <label for="miembro">¿Desde qué año sos miembro de club Nespresso?</label>
+    <select>
+        <option value="2022">2024</option>
+      <option value="2021">2023</option>
+        <option value="2022">2022</option>
+      <option value="2021">2021</option>
+      <option value="2022">2020</option>
+      <option value="2021">2019</option>
+    </select>
+</form>
+
+
+
         </article>
     </section>
 
