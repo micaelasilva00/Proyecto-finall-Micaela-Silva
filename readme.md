@@ -27,9 +27,3 @@
 
 //FIN   
 
-PARA TRABAJAR CON GIT TAMBIEN
-1. Crear archivo que se llame 
-.gitignore
-
-2.Dentro del archivo, escribir:
-
